@@ -3,14 +3,15 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const config = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_DATABASE_URL,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
-  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
+
+  apiKey: "AIzaSyBfA_d4o82bMGwyhGwRERuYikvrD7rNUAc",
+  authDomain: "ecom-ae396.firebaseapp.com",
+  projectId: "ecom-ae396",
+  storageBucket: "ecom-ae396.appspot.com",
+  messagingSenderId: "549651110593",
+  appId: "1:549651110593:web:b271bf3f7543269f32d240",
+  measurementId: "G-7PR92NJLJJ"
+
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
